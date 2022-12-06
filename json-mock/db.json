@@ -1,0 +1,656 @@
+{
+    "users":[
+       {
+        "id":1,
+        "name":"ram",
+        "age":"24",
+        "place":"pune",
+        "batch_name":"WEB-13",
+        "profession":"Frontend"
+       }
+    ],
+    "cars": [
+      {
+        "id": 1,
+        "brand": "Tata",
+        "year": 2019,
+        "type": "Manual",
+        "kms": 10000,
+        "Description": "Tata Altroz with all original documents",
+        "Price": "450000"
+      },
+      {
+        "id": 2,
+        "brand": "Tata",
+        "type": "AMT",
+        "year": 2017,
+        "kms": 8000,
+        "Description": "Tata Nexon with all original documents",
+        "Price": 584231
+      },
+      {
+        "brand": "Audi",
+        "year": 2018,
+        "type": "Manual",
+        "kms": 8000,
+        "Description": "Audi Altroz with all original documents",
+        "Price": 80000,
+        "id": 3
+      },
+      {
+        "brand": "Tata",
+        "year": 2017,
+        "type": "Manual",
+        "kms": 76000,
+        "Description": "Audi Altroz with all original documents",
+        "Price": 86000,
+        "id": 4
+      },
+      {
+        "id": 5,
+        "brand": "BMW",
+        "year": 2019,
+        "type": "Manual",
+        "kms": 10000,
+        "Description": "BMW Altroz with all original documents",
+        "Price": 457812
+      },
+      {
+        "id": 6,
+        "brand": "Tata",
+        "type": "AMT",
+        "year": 2017,
+        "kms": 8000,
+        "Description": "Tata Nexon with all original documents",
+        "Price": 862235
+      },
+      {
+        "brand": "Audi",
+        "year": 2018,
+        "type": "Manual",
+        "kms": 8000,
+        "Description": "Audi Altroz with all original documents",
+        "Price": 46000,
+        "id": 7
+      },
+      {
+        "brand": "BMW",
+        "year": 2017,
+        "type": "Manual",
+        "kms": 76000,
+        "Description": "BMW Altroz with all original documents",
+        "Price": 78000,
+        "id": 8
+      }
+    ],
+    "wishlisted_cars": [
+      {
+        "id": 1,
+        "brand": "Tata",
+        "year": 2019,
+        "type": "Manual",
+        "kms": 10000,
+        "Description": "Tata Altroz with all original documents",
+        "Price": 500000
+      }
+    ],
+    "hotel": [
+      {
+        "category": "family",
+        "image_url": "https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923__480.jpg",
+        "type_of_room": "AC",
+        "bed_type": "Double",
+        "no_of_persons": "4",
+        "capacity": "5",
+        "cost": "299",
+        "booked": false,
+        "id": 1
+      },
+      {
+        "category": "duluxe",
+        "image_url": "https://media.istockphoto.com/photos/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv-picture-id1066999762?k=20&m=1066999762&s=612x612&w=0&h=BitPXyhBFZQHMfpC9ikX_DReVK6Rd28hH9pRoZW8YAs=",
+        "type_of_room": "AC",
+        "bed_type": "Double",
+        "no_of_persons": "2",
+        "capacity": "3",
+        "cost": "499",
+        "booked": false,
+        "id": 2
+      },
+      {
+        "category": "suit",
+        "image_url": "https://media.istockphoto.com/photos/modern-living-room-interior-with-air-conditioner-orange-sofa-and-picture-id1352177016?b=1&k=20&m=1352177016&s=170667a&w=0&h=Mec3QGI01I_jI0sBHHZJEW2LSFhbDZQLMg81PHfBp8A=",
+        "type_of_room": "Non-AC",
+        "bed_type": "Single",
+        "no_of_persons": "3",
+        "capacity": "4",
+        "cost": "199",
+        "booked": false,
+        "id": 3
+      },
+      {
+        "category": "duluxe",
+        "image_url": "https://m.lemontreehotels.com/CMSWebParts/MobileWebParts/showpropertyGalleryimage.ashx?Hid=586",
+        "type_of_room": "AC",
+        "bed_type": "Single",
+        "no_of_persons": "1",
+        "capacity": "2",
+        "cost": "599",
+        "booked": false,
+        "id": 4
+      },
+      {
+        "category": "suit",
+        "image_url": "https://www.zenrooms.com/img/social_share_room.jpg",
+        "type_of_room": "AC",
+        "bed_type": "Single",
+        "no_of_persons": "1",
+        "capacity": "2",
+        "cost": "999",
+        "booked": false,
+        "id": 5
+      },
+      {
+        "category": "family",
+        "image_url": "https://assets-global.website-files.com/5c6d6c45eaa55f57c6367749/624b471bdf247131f10ea14f_61d31b8dbff9b500cbd7ed32_types_of_rooms_in_a_5-star_hotel_2_optimized_optimized.jpeg",
+        "type_of_room": "AC",
+        "bed_type": "Double",
+        "no_of_persons": "4",
+        "capacity": "6",
+        "cost": "1299",
+        "booked": false,
+        "id": 6
+      },
+      {
+        "category": "duluxe",
+        "image_url": "https://imageio.forbes.com/specials-images/imageserve/5cdb058a5218470008b0b00f/Nobu-Ryokan-Malibu/0x0.jpg?format=jpg&height=1009&width=2000",
+        "type_of_room": "Non-AC",
+        "bed_type": "Double",
+        "no_of_persons": "2",
+        "capacity": "4",
+        "cost": "999",
+        "booked": false,
+        "id": 7
+      },
+      {
+        "category": "family",
+        "image_url": "https://tse2.mm.bing.net/th?id=OIP.lzxTmkT_jAMrNnvuscBiEgHaE8&pid=Api&P=0",
+        "type_of_room": "simple",
+        "bed_type": "One Bed",
+        "no_of_persons": 4,
+        "capacity": 3,
+        "cost": 4000,
+        "booked": false,
+        "id": 8
+      }
+    ],
+    "Restaurant": [
+      {
+        "id": 48,
+        "name": "Barth",
+        "type": "fine_dining",
+        "rating": 2,
+        "number_of_votes": 948,
+        "price_starts_from": 50,
+        "image": "https://picsum.photos/200"
+      },
+      {
+        "id": 52,
+        "name": "Hellard",
+        "type": "fast_food",
+        "rating": 2,
+        "number_of_votes": 817,
+        "price_starts_from": 50,
+        "image": "https://picsum.photos/200"
+      }
+    ],
+    "TeslaUser": [
+      {
+        "name": "masai School",
+        "age": 24,
+        "state": "Maharashtra",
+        "year": 2017,
+        "id": 1
+      },
+      {
+        "name": "Jhon",
+        "age": 28,
+        "state": "Goa",
+        "year": 2018,
+        "id": 2
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "name": "ram",
+        "gender": "male",
+        "age": 24,
+        "image": "https://tse2.mm.bing.net/th?id=OIP.zruwv8D-n_b7kD4P6ImRpgAAAA&pid=Api&P=0",
+        "tests": [
+          {
+            "testName": "unit-test",
+            "subject": "math",
+            "marks": 76,
+            "date": "12/09/2022"
+          },
+          {
+            "testName": "unit-test",
+            "subject": "english",
+            "marks": 45,
+            "date": "15/09/2022"
+          },
+          {
+            "testName": "unit-test",
+            "subject": "science",
+            "marks": 85,
+            "date": "17/09/2022"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "shital",
+        "gender": "female",
+        "age": 25,
+        "image": "https://tse2.mm.bing.net/th?id=OIP.cOoajfxGdM4h6Z0Ur1P6ZAHaHa&pid=Api&P=0",
+        "tests": [
+          {
+            "testName": "unit-test",
+            "subject": "math",
+            "marks": 75,
+            "date": "12/09/2022"
+          },
+          {
+            "testName": "unit-test",
+            "subject": "english",
+            "marks": 65,
+            "date": "15/09/2022"
+          },
+          {
+            "testName": "unit-test",
+            "subject": "science",
+            "marks": 35,
+            "date": "17/09/2022"
+          }
+        ]
+      }
+    ],
+    "signUpData": [
+      {
+        "Firstname": "ashwini",
+        "Lastname": "bhoskar",
+        "email": "ashwinibhoskar5111@gmail.com",
+        "password": "123",
+        "id":1
+      }
+    ],
+    "gifs":[
+      {
+        "url":"https://media0.giphy.com/media/9pZw57AyqOHy47oSZq/giphy-preview.gif?cid=15c2c903b93mdt0ddpj618h6qxk9kr6umoedcz27ky019ztt&rid=giphy-preview.gif&ct=g",
+        "id":"9pZw57AyqOHy47oSZq"
+      }
+    ],
+    "gamerInfo":[
+      {
+        "id":1,
+        "name":"Siya",
+        "level":"mediumlevel"
+      }
+    ],
+    "todos":[
+      {
+        "id":1,
+        "title":"react",
+        "status":false
+      },
+      {
+        "id":2,
+        "title":"react-redux",
+        "status":false
+      }
+    ],
+    "property":[
+      {
+        "id": 1,
+        "rent": "3000",
+        "location": "Pune",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.0ExQdhDmCUhjNL-V_pGRlwHaEK&pid=Api&P=0",
+        "title": "2100 Valmar Street",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6 X 7 sq.m",
+        "MoveInData": "09-11-2022",
+        "PropertyType": "Housing"
+        },
+        {
+        "rent": "6000",
+        "location": "Pune",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.jrIaiWj9miFq4cisniZyAwHaEu&pid=Api&P=0",
+        "title": "Navalakha Ritz",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "2",
+        "area": "7.5 X 7 sq.m",
+        "MoveInData": "2022-12-16",
+        "PropertyType": "Housing",
+        "id": 2
+        },
+        {
+        "rent": "13000",
+        "location": "Pune",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.I_TlddwckPFMjzSc1mUN4gHaEk&pid=Api&P=0",
+        "title": "Mahaveer Blue Chip Avenue",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "8 X 7 sq.m",
+        "MoveInData": "2023-01-10",
+        "PropertyType": "Commercial",
+        "id": 3
+        },
+        {
+        "rent": "25000",
+        "location": "Pune",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.944Mt57tGQ1JRBdzuZuvAwHaFj&pid=Api&P=0",
+        "title": "Kolte patil 24K Opula",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "8 X 7 sq.m",
+        "MoveInData": "2023-02-10",
+        "PropertyType": "Condos",
+        "id": 4
+        },
+        {
+        "rent": "40000",
+        "location": "Pune",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.DXtah2JL0IkvwKgLQTgbSAHaFj&pid=Api&P=0",
+        "title": "Godraj 24",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "4",
+        "bathroom": "2",
+        "area": "8 X 7.5 sq.m",
+        "MoveInData": "2023-03-11",
+        "PropertyType": "TownHomes",
+        "id": 5
+        },
+        {
+        "rent": "4000",
+        "location": "Mumbai",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.MbPCopokJzr_K1X9xYbDjwHaIG&pid=Api&P=0",
+        "title": "Nandgude Ashoka Heritage",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6 X 6.5 sq.m",
+        "MoveInData": "2022-11-27",
+        "PropertyType": "Housing",
+        "id": 6
+        },
+        {
+        "rent": "7000",
+        "location": "Mumbai",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.hK2HpMLi9BGMT2F-v2EjKgHaFj&pid=Api&P=0",
+        "title": "Silver Crest",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6.5 X 6.5 sq.m",
+        "MoveInData": "2022-12-27",
+        "PropertyType": "Housing",
+        "id": 7
+        },
+        {
+        "rent": "12550",
+        "location": "Mumbai",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.4wbVnYsjxDLGp7nOnOF1SgHaDt&pid=Api&P=0",
+        "title": "Lodha Belmondo",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "7 X 6.5 sq.m",
+        "MoveInData": "2023-01-27",
+        "PropertyType": "Commercial",
+        "id": 8
+        },
+        {
+        "rent": "27750",
+        "location": "Mumbai",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.WrfzpIsYtbnjizoC_TkJxwHaDa&pid=Api&P=0",
+        "title": "Shapoorji Joyville",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "2",
+        "area": "7.6 X 6.5 sq.m",
+        "MoveInData": "2023-02-27",
+        "PropertyType": "Condos",
+        "id": 9
+        },
+        {
+        "rent": "45150",
+        "location": "Mumbai",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.D4HrX8qhCqWm_YjNYAJhRQHaFO&pid=Api&P=0",
+        "title": "G M Kenjale Emirus",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "8 X 7 sq.m",
+        "MoveInData": "2023-03-16",
+        "PropertyType": "TownHomes",
+        "id": 10
+        },
+        {
+        "rent": "4000",
+        "location": "Nagpur",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.wLjMlGTd_tKTQWT0gADD9gHaH-&pid=Api&P=0",
+        "title": "Kalpataru Estate",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6.5 x 7 sq.m",
+        "MoveInData": "2022-11-19",
+        "PropertyType": "Housing",
+        "id": 11
+        },
+        {
+        "rent": "8500",
+        "location": "Nagpur",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.jRatwx18_eAk2JMixLvaZQHaFj&pid=Api&P=0",
+        "title": "Marvel Ganga Frid Phase 1",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "2",
+        "area": "7.5 x 7 sq.m",
+        "MoveInData": "2022-12-19",
+        "PropertyType": "Commercial",
+        "id": 12
+        },
+        {
+        "rent": "13750",
+        "location": "Nagpur",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.VslPReomI6R4EB3XsUuMngAAAA&pid=Api&P=0",
+        "title": "SKYi Start Town",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "7.5 x 8 sq.m",
+        "MoveInData": "2023-01-19",
+        "PropertyType": "Housing",
+        "id": 13
+        },
+        {
+        "rent": "30000",
+        "location": "Nagpur",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.a_l9xJaY6GEONw8wly35cwHaFj&pid=Api&P=0",
+        "title": "GK Rose Woods",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "7 x 8 sq.m",
+        "MoveInData": "2023-02-19",
+        "PropertyType": "Condos",
+        "id": 14
+        },
+        {
+        "rent": "50075",
+        "location": "Nagpur",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.2dqaJAaCaSNOb2qlsmShUwHaEK&pid=Api&P=0",
+        "title": "Marvel Bounty",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "4",
+        "bathroom": "2",
+        "area": "8 x 7.5 sq.m",
+        "MoveInData": "2023-03-19",
+        "PropertyType": "TownHomes",
+        "id": 15
+        },
+        {
+        "rent": "5500",
+        "location": "Thane",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.Z1-QZOp7A9uCb7ZwcmIbWAHaFj&pid=Api&P=0",
+        "title": "Panchshil Towers",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6 x 5.5 sq.m",
+        "MoveInData": "2022-11-29",
+        "PropertyType": "Housing",
+        "id": 16
+        },
+        {
+        "rent": "9000",
+        "location": "Thane",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.rd3vOTdiMsiAjD0GmOX4pQHaEK&pid=Api&P=0",
+        "title": "Majestique",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "2",
+        "area": "6 .5 x 5.5 sq.m",
+        "MoveInData": "2022-12-29",
+        "PropertyType": "Housing",
+        "id": 17
+        },
+        {
+        "rent": "12000",
+        "location": "Thane",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.S41Bk_IDJAv3WDsYsSemaQHaE8&pid=Api&P=0",
+        "title": "Konark Splendor ",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "7 .5 x 6 sq.m",
+        "MoveInData": "2023-01-06",
+        "PropertyType": "Commercial",
+        "id": 18
+        },
+        {
+        "rent": "25000",
+        "location": "Thane",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.0L9g0MQa6rNInlx5meOCfQHaFj&pid=Api&P=0",
+        "title": "Leverage Greens",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "4",
+        "bathroom": "2",
+        "area": "7 .5 x 7 sq.m",
+        "MoveInData": "2023-02-08",
+        "PropertyType": "Condos",
+        "id": 19
+        },
+        {
+        "rent": "40500",
+        "location": "Thane",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.A7aM248JedfDWx3AbuFhxgHaFr&pid=Api&P=0",
+        "title": "Apte Colony",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "4",
+        "bathroom": "2",
+        "area": "7 .5 x 8 sq.m",
+        "MoveInData": "2023-03-08",
+        "PropertyType": "Condos",
+        "id": 20
+        },
+        {
+        "rent": "2000",
+        "location": "Nasik",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.EyIUAhaRtDpoBAJSRdkj_AHaEK&pid=Api&P=0",
+        "title": "Kalpataru Serenity",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6 .5 x 6 sq.m",
+        "MoveInData": "2023-03-15",
+        "PropertyType": "Housing",
+        "id": 21
+        },
+        {
+        "rent": "40500",
+        "location": "Nasik",
+        "img": "https://is1-3.housingcdn.com/4f2250e8/e586fe584d4f83d949afeba782bdaac5/v0/medium/majestique_towers_east-kharadi-pune-majestique_landmarks.jpeg.webp",
+        "title": "Majestique Serenity",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "7 .5 x 6 sq.m",
+        "MoveInData": "2023-02-11",
+        "PropertyType": "Housing",
+        "id": 22
+        },
+        {
+        "rent": "7000",
+        "location": "Nasik",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.USSHiCheaAGHueYzfGTm6QHaFj&pid=Api&P=0",
+        "title": "Silver Crest",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "3",
+        "bathroom": "2",
+        "area": "7.5 x 6.5 sq.m",
+        "MoveInData": "2023-01-13",
+        "PropertyType": "Commercial",
+        "id": 23
+        },
+        {
+        "rent": "20000",
+        "location": "Nasik",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.PFoD3KbNYKKvYxivoKKjywHaFj&pid=Api&P=0",
+        "title": "GK Rose Woods",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "4",
+        "bathroom": "2",
+        "area": "7.5 x 6.5 sq.m",
+        "MoveInData": "2022-12-02",
+        "PropertyType": "Condos",
+        "id": 24
+        },
+        {
+        "rent": "4500",
+        "location": "Nasik",
+        "img": "https://tse4.mm.bing.net/th?id=OIP.MokQ4N8ZyGtRK_wSNQWP5QHaFj&pid=Api&P=0",
+        "title": "Aqura Pride",
+        "address": "Take Geyer Springs To Baseline, Turn Right on Cloverdale, Then Right on Dahlia.",
+        "bed": "2",
+        "bathroom": "1",
+        "area": "6.5 x 6 sq.m",
+        "MoveInData": "2022-11-22",
+        "PropertyType": "TownHomes",
+        "id": 25
+        }
+    ],
+    "joveesBestSeller":[
+  
+    ],
+    "joveesArrivals":[
+  
+    ],
+    "joveesAging":[
+  
+    ],
+    "joveesGlow":[
+      
+    ]
+  
+  
+  
+  }
+  
