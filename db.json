@@ -7215,7 +7215,7 @@
       "TeachingLanguage": "GERMAN",
       "BeginningSemester": "WINTER",
       "Duration": "N/A",
-      "TuitionFee": "No tuitionfee",
+      "TuitionFee": 0,
       "applicationDeadline": "Winter 03/20/2023",
       "State": "Bavaria",
       "Logo": "https://dummyimage.com/200x200.png",
