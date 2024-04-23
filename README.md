@@ -15,6 +15,7 @@ npm init -y
 #### Step 2: Install json server dependency
 ```
 npm i json-server
+
 ```
 
 #### Step 3: Create server.js
